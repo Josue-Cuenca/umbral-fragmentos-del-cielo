@@ -1,17 +1,60 @@
 <!doctype html>
 <html lang="es">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b171c"><title>UMBRAL · Fragmentos del cielo</title><link rel="stylesheet" href="style.css"></head>
-<body>
-<header><a href="./" class="brand">◈ UMBRAL <small>FRAGMENTOS DEL CIELO</small></a><span>AVENTURA DE PLATAFORMAS · PHASER 3</span></header>
-<main>
-<div class="eyebrow">EL MUNDO TE ESPERA <span>SEIS SALAS · TRES BIOMAS · UN ÚLTIMO GUARDIÁN</span></div>
-<section id="game-host" aria-label="Juego UMBRAL. Controles e instrucciones debajo del juego."></section>
-<nav class="tools" aria-label="Controles accesibles del juego"><button id="play">Jugar / Continuar</button><button id="pause">Ⅱ Pausa</button><button id="sound" aria-pressed="false">Sonido / Mute</button><button id="controls">Controles</button><button id="settings">Ajustes</button><button id="fullscreen">⛶ Pantalla completa</button></nav>
-<div class="status"><span id="status">Cargando el mundo…</span><span id="storage-status">Guardado automático</span></div>
-<p class="instructions"><strong>Mover:</strong> A/D o ←/→ · <strong>Salto:</strong> Espacio · <strong>Dash:</strong> Shift + dirección · <strong>Espada:</strong> J/Z · <strong>Disparo:</strong> K/X · <strong>Usar:</strong> W/↑ · <strong>Pausa:</strong> Esc.</p>
-<p class="instructions">En móvil usa los botones dentro del juego. Recoge las mejoras de las salas 2 y 4, descansa en los santuarios y derrota al jefe final. Los menús también admiten ↑/↓ y Enter.</p>
-<p id="announcer" class="sr-only" aria-live="polite"></p>
-<noscript>Este juego necesita JavaScript. Actívalo y abre la dirección del servidor local.</noscript>
-</main><footer>HECHO DE PÍXELES. LLENO DE SECRETOS. <span>UMBRAL · FRAGMENTOS DEL CIELO</span></footer>
-<script src="vendor/phaser.min.js"></script><script type="module" src="src/main.js"></script>
-</body></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0b171c" />
+    <title>UMBRAL · Fragmentos del cielo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./" class="brand">◈ UMBRAL <small>FRAGMENTOS DEL CIELO</small></a
+      ><span>AVENTURA DE PLATAFORMAS · PHASER 3</span>
+    </header>
+    <main>
+      <div class="eyebrow">
+        EL MUNDO TE ESPERA
+        <span>SEIS SALAS · TRES BIOMAS · UN ÚLTIMO GUARDIÁN</span>
+      </div>
+      <section
+        id="game-host"
+        aria-label="Juego UMBRAL. Controles e instrucciones debajo del juego."
+      ></section>
+      <nav class="tools" aria-label="Controles accesibles del juego">
+        <button id="play">Jugar / Continuar</button
+        ><button id="pause">Ⅱ Pausa</button
+        ><button id="sound" aria-pressed="false">Sonido / Mute</button
+        ><button id="controls">Controles</button
+        ><button id="settings">Ajustes</button
+        ><button id="fullscreen">⛶ Pantalla completa</button>
+      </nav>
+      <div class="status">
+        <span id="status">Cargando el mundo…</span
+        ><span id="storage-status">Guardado automático</span>
+      </div>
+      <p class="instructions">
+        <strong>Mover:</strong> A/D o ←/→ · <strong>Salto:</strong> Espacio ·
+        <strong>Dash:</strong> Shift + dirección · <strong>Espada:</strong> J/Z
+        · <strong>Disparo:</strong> K/X · <strong>Usar:</strong> W/↑ ·
+        <strong>Pausa:</strong> Esc.
+      </p>
+      <p class="instructions">
+        En móvil usa los botones dentro del juego. Recoge las mejoras de las
+        salas 2 y 4, descansa en los santuarios y derrota al jefe final. Los
+        menús también admiten ↑/↓ y Enter.
+      </p>
+      <p id="announcer" class="sr-only" aria-live="polite"></p>
+      <noscript
+        >Este juego necesita JavaScript. Actívalo y abre la dirección del
+        servidor local.</noscript
+      >
+    </main>
+    <footer>
+      HECHO DE PÍXELES. LLENO DE SECRETOS.
+      <span>UMBRAL · FRAGMENTOS DEL CIELO</span>
+    </footer>
+    <script src="vendor/phaser.min.js"></script>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
