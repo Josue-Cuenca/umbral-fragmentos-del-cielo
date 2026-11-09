@@ -1,0 +1,9 @@
+node_modules/
+.artifacts/
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
+menu.png
+game.png

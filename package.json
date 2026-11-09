@@ -1,0 +1,1 @@
+{"name":"umbral-phaser-nativo","version":"3.0.0","private":true,"type":"module","description":"Plataformas 2D con escenas, sprites, camara, HUD, audio y Arcade Physics nativos de Phaser 3.90.0","scripts":{"start":"node scripts/server.mjs","dev":"node scripts/server.mjs","test":"node --test tests/*.test.js"},"engines":{"node":">=20"}}
