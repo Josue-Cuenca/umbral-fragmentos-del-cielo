@@ -1,6 +1,6 @@
 # Cumplimiento de la guía del primer bimestre
 
-Se revisó el Word ProyectoPrimerBimestre-2026-A.docx completo, incluidas sus tablas, rúbrica, restricciones y entregables. Esta versión 3 reemplaza el motor de ejecución previo por componentes nativos de Phaser 3.90.0. Arquetipo seleccionado: Plataforma 2D.
+Se revisó el Word ProyectoPrimerBimestre-2026-A(2).docx completo, incluidas sus tablas, rúbrica, restricciones y entregables. Los dos adjuntos actuales coinciden byte por byte con los archivos de origen usados para esta adaptación. Esta versión 3 reemplaza el motor de ejecución previo por componentes nativos de Phaser 3.90.0. Arquetipo seleccionado: Plataforma 2D.
 
 | Apartado de la guía | Implementación y evidencia |
 | --- | --- |
