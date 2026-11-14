@@ -40,3 +40,7 @@ Se utilizó Chromium headless en Linux, con 1440 × 1080 para interfaz, 1280 × 
 - `node scripts/record-demo.mjs`: captura nueva campaña y audio; requiere Playwright, Chromium y FFmpeg. Guarda los intermedios en .artifacts para mezclarlos posteriormente.
 
 No se publicó GitHub ni se certificó autoría de la base: esos puntos requieren revisión personal y acceso a la cuenta del estudiante.
+
+## Verificación con los adjuntos del 14 de noviembre de 2026
+
+Se volvieron a ejecutar las ocho pruebas de Node y las tres suites de Chromium sobre el código incluido. La campaña volvió a recorrer las seis salas, recoger ambas mejoras y vencer al jefe con 3800 puntos y cero caídas. El recorrido registró 429 colisiones y 47 overlaps. Las suites de interfaz y física aprobaron los controles de teclado y multitáctiles, la pausa, Game Over, el reintento, la persistencia y la separación de plataformas y barreras. La demo incluida se verificó como un MP4 de 55 segundos con video H.264 y audio AAC. La medición de FPS de la sección anterior corresponde a la grabación de esa demo.
