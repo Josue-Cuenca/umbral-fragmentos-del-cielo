@@ -58,4 +58,4 @@ La [demo](docs/demo.mp4) dura 55 segundos. Las [capturas](docs/capturas/) muestr
 
 ## Créditos
 
-Mapas, arte y motivos musicales de [Umbral Fragmentos del cielo](https://github.com/BelkiErick/umbral-fragmentos-del-cielo). El desarrollo con Phaser contó con asistencia de IA. Phaser 3.90.0 se distribuye bajo [licencia MIT](vendor/PHASER-LICENSE.md).
+Mapas, arte y motivos musicales de [Umbral Fragmentos del cielo](https://github.com/BelkiErick/umbral-fragmentos-del-cielo). Phaser 3.90.0 se distribuye bajo [licencia MIT](vendor/PHASER-LICENSE.md).
